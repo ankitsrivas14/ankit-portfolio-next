@@ -1,7 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+
+
+//COMPONENTS
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +13,7 @@ const Home: NextPage = () => {
       <title>Ankit's Portfolio</title>
     </Head>
 
-    {/* Header */}
+    <Header />
 
 
     {/* Hero */}
@@ -27,7 +30,7 @@ const Home: NextPage = () => {
 
     {/* Projectes */}
 
-    
+
     {/* Contact Me */}
 
   </div>
